@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroShop</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> groshop</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>            
+            <a href="#features">Features</a>            
+            <a href="#products">Products</a>            
+            <a href="#categories">Categories</a>            
+            <a href="#review">Review</a>            
+            <a href="#blogs">Blogs</a>            
+        </nav>
+            
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>            
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here....">
+            <label form="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://img.freepik.com/premium-psd/watermelon-with-leaves-isolated-premium-psd_328278-1865.jpg?w=740" height="90px" width="90px">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$5/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://img.freepik.com/premium-psd/fresh-tomato-isolated_253984-4701.jpg?w=740" height="90px" width="90px">
+                <div class="content">
+                    <h3>tomato</h3>
+                    <span class="price">$4.55/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://img.freepik.com/free-photo/raw-chicken-meat_74190-1573.jpg?w=740&t=st=1687240615~exp=1687241215~hmac=05bf23b3bbb1fe8f3e1419d96233d5afdebc11994d5c08e7e0e49b9d79ad8451" height="90px" width="90px">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">$5.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="total"> total : $15.54/- </div>
+
+            <a href="#" class="btn">check out</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+
+    </header>
+    
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh and <span>organic </span> products for you </h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, voluptatem?</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts -->
+
+<section class="features" id="features">
+    <h1 class="heading"> our <span>features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://img.freepik.com/premium-photo/shopping-bag-full-fresh-fruits-vegetables-with-assorted-ingredients_8087-2232.jpg?w=740" height="150px" width="200px">
+            <h3>fresh and organic</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ad.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?w=740&t=st=1687230437~exp=1687231037~hmac=64a7bddfa86325fb38caebf561a70ee53c2474a3da614b8ce855be2133381131" height="150" width="200px">
+            <h3>free delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ad.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://img.freepik.com/free-vector/transfer-money-concept-illustration_114360-4165.jpg?w=740&t=st=1687230530~exp=1687231130~hmac=05483b4f2e3d069ef48a22cd017ed6b85233d1cf74db22dbd9e4a8c1cabe48f1" height="150px" width="200px">
+            <h3>easy payments</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ad.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span></h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/free-photo/fresh-orange-isolated-white-background_93675-131671.jpg?w=740&t=st=1687232440~exp=1687233040~hmac=78653cd440ead857565663f70c376f87f4a350aa85d20d8cc8868090ae3bd921" height="150px" width="200px" alt="">
+                <h3>fresh orange</h3>
+                <div class="price"> $4.99/- - $10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/free-photo/close-up-view-whole-red-onions-left-side-white-background-with-copy-space_141793-5438.jpg?w=740&t=st=1687239658~exp=1687240258~hmac=21dcab7c5dafddf2a363aab62906b48ede6605e098fb76ed3ddf684ad8492903" height="150px" width="200px" alt="">
+                <h3>fresh onion</h3>
+                <div class="price"> $4.99/- - $10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/premium-photo/green-cabbage-vegetables-isolated-white_80510-721.jpg?w=740" height="150px" width="200px" alt="">
+                <h3>fresh cabbage</h3>
+                <div class="price"> $4.99/- - $10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/free-photo/raw-meat_144627-33840.jpg?w=740&t=st=1687240048~exp=1687240648~hmac=344251e96551a8db6e1dc7bb16fabe3ac95590a402e637c583b39a4cedc03e1d" height="150px" width="200px" alt="">
+                <h3>fresh meat</h3>
+                <div class="price"> $4.99/- - $10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/premium-photo/potatoes-raw_79295-18434.jpg?w=740" height="150px" width="200px" alt="">
+                <h3>fresh potato</h3>
+                <div class="price"> $4.99/- - $10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/free-photo/avocado-dark-wood-background_1205-769.jpg?1&w=740&t=st=1687240326~exp=1687240926~hmac=c32f0d523668f22edce71de1a57f7cf8163d330dd6cd396b8be925ba07501c67" height="150px" width="200px" alt="">
+                <h3>fresh avocado</h3>
+                <div class="price"> $4.99/- - $10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/free-photo/carrot-background_1339-3261.jpg?w=740&t=st=1687240415~exp=1687241015~hmac=eb6ae9f629b2faf497c19f30fbfc8ff6ba9501d603b42a70cd334e8bf827fef3" height="150px" width="200px" alt="">
+                <h3>fresh carrot</h3>
+                <div class="price"> $4.99/- - $10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/free-photo/lemon-table_144627-22176.jpg?w=740&t=st=1687240483~exp=1687241083~hmac=354883ab8952fa11204f0b9c9b846d52b2b1aada7a20d3cffccbb6aa707b1b62" height="150px" width="200px" alt="">
+                <h3>lemon</h3>
+                <div class="price"> $4.99/- - $10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> product <span> categories </span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://img.freepik.com/premium-photo/collection-fruits-vegetables-isolated_135427-230.jpg?w=740" height="150px" width="200px">
+            <h3>Vegetables</h3>
+            <p>upto 40% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://img.freepik.com/premium-photo/composition-with-vegetables-fruits-wicker-basket-isolated_135427-239.jpg?w=826" height="150px" width="200px">
+            <h3>fresh fruits</h3>
+            <p>upto 40% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://img.freepik.com/premium-photo/dairy-protein-products-concept_80510-284.jpg?w=740" height="150px" width="200px">
+            <h3>dairy products</h3>
+            <p>upto 40% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="https://img.freepik.com/premium-photo/fresh-raw-beef-steak-isolated-white-background-with-clipping-path_228338-124.jpg?w=740" height="150px" width="200px">
+            <h3>fresh meat</h3>
+            <p>upto 40% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- categories section ends -->
+
+<!-- review section starts -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">customer's <span>review</span></h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                  <img src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=740&t=st=1687246315~exp=1687246915~hmac=1fa03b32f96a3737d2f10e000f21f251e1a4aee4b7e87025af47c96b5baccc87" height="150px" width="200px">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis ea incidunt at beatae inventore quam minus harum voluptatem vitae!</p>
+                  <h3>john deol</h3>
+                  <div class="stars">
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars"></i>
+                    <i class="fas fa-stars-half-alt"></i>
+                  </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?w=740&t=st=1687246396~exp=1687246996~hmac=723c5cbe73e37161a860ddc95fcfe7ad3b55bd20bdb17f33d7676862a7019c2f" height="150px" width="200px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis ea incidunt at beatae inventore quam minus harum voluptatem vitae!</p>
+                <h3>riya</h3>
+                <div class="stars">
+                  <i class="fas fa-stars"></i>
+                  <i class="fas fa-stars"></i>
+                  <i class="fas fa-stars"></i>
+                  <i class="fas fa-stars"></i>
+                  <i class="fas fa-stars-half-alt"></i>
+                </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="https://img.freepik.com/premium-photo/onfident-handsome-man-with-arms-crossed-body-smiling-looking-determined_911620-3113.jpg?w=740" height="150px" width="200px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis ea incidunt at beatae inventore quam minus harum voluptatem vitae!</p>
+            <h3>rohan</h3>
+            <div class="stars">
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars"></i>
+              <i class="fas fa-stars-half-alt"></i>
+            </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="https://img.freepik.com/free-photo/young-bearded-man-with-round-glasses-denim-shirt_273609-12127.jpg?w=740&t=st=1687246563~exp=1687247163~hmac=1fc22ee85def0e5853d11ca8eac438e6f7e3f7b2ff1d81c15af1c2b41901cf54" height="150px" width="200px">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facilis ea incidunt at beatae inventore quam minus harum voluptatem vitae!</p>
+        <h3>rahul</h3>
+        <div class="stars">
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars"></i>
+          <i class="fas fa-stars-half-alt"></i>
+        </div>
+  </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://img.freepik.com/free-photo/top-view-fruit-vegetables-reusable-bags-with-bread_23-2148493504.jpg?w=740&t=st=1687247964~exp=1687248564~hmac=31f719d81ba7ed951bf681562510f7150b42b41b3062b710aa7449565bd0fe63" height="500px" width="500px" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#" ><i class="fas fa-user"></i> by user </a>
+                    <a href="#" ><i class="fas fa-calender"></i> 1st may, 2023 </a>
+                </div>
+                <h3>fresh and organic fruits and vegetables and dairy products</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, aliquid!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://img.freepik.com/free-photo/top-view-fresh-bell-peppers-with-apples-cabbage-greens-white-background-ripe-color-salad-healthy-life-diet_140725-98455.jpg?w=740&t=st=1687248033~exp=1687248633~hmac=836e5f7b5397755e9614fb69eee93b8bc0c8d8e8b5fb6b18e1dcbf84982161ef" height="500px" width="500px" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#" ><i class="fas fa-user"></i> by user </a>
+                    <a href="#" ><i class="fas fa-calender"></i> 1st may, 2023 </a>
+                </div>
+                <h3>fresh and organic fruits and vegetables and dairy products</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, aliquid!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://img.freepik.com/free-photo/close-up-organic-milk-with-gourmet-cheese_23-2148610557.jpg?w=740&t=st=1687248121~exp=1687248721~hmac=b44da28c90c3d3aad4cf4715bf1592517bf958eecfc1ce2e81cd9eba0f5f4bf8" height="500px" width="500px" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#" ><i class="fas fa-user"></i> by user </a>
+                    <a href="#" ><i class="fas fa-calender"></i> 1st may 2023 </a>
+                </div>
+                <h3>fresh and organic fruits and vegetables and dairy products</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, aliquid!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+     <div class="box-container">
+
+        <div class="box">
+            <h3> groshop <i class="fas fa-shopping-basket"></i></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, error.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i> +91 9019213167 </a>
+            <a href="#" class="links"><i class="fas fa-phone"></i> +91 9110242106 </a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i> s687794@gmail.com </a>
+            <a href="#" class="links"><i class="fas fa-map marker-alt"></i> bangalore, india - 560060 </a>
+        </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>newletters</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="https://img.freepik.com/premium-photo/credit-cards-mockup-white_38810-7771.jpg?w=740" height="40px" width="100px" class="payment-img">
+            </div> 
+
+     </div>
+
+     <div class="credit">created by <span> Swathi </span> all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <!-- custom js file link -->
+   <script src="script.js"></script>
+
+</body>
+</html>
